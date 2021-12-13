@@ -244,7 +244,7 @@ footer {
         width: 0%;
         position: absolute;
         img {
-            display: none;
+            visibility: hidden;
         }
       }
       &::after {
@@ -301,10 +301,10 @@ footer {
       #menu{
         .dishes {
             h1{
-                padding: 0.5rem 0rem;
+                padding: 1.5rem 0rem;
             }
             h2{
-                padding: 0.5rem 0rem;
+                padding: 1.5rem 0rem;
             }
             p{
                 padding: 0.5rem 0rem;
